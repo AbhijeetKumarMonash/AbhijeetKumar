@@ -1,0 +1,299 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Abhijeet Kumar | AI Architect & Software Systems Engineer</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@300;400;600;800&family=JetBrains+Mono&display=swap');
+        body { font-family: 'Plus Jakarta Sans', sans-serif; background: #020617; color: #f8fafc; }
+        .mono { font-family: 'JetBrains Mono', monospace; }
+        .accent-gradient { background: linear-gradient(90deg, #60a5fa, #a855f7); -webkit-background-clip: text; -webkit-text-fill-color: transparent; }
+        .card-bg { background: rgba(15, 23, 42, 0.6); border: 1px solid rgba(255, 255, 255, 0.1); backdrop-filter: blur(10px); transition: all 0.4s ease; }
+        .card-bg:hover { border-color: #60a5fa; transform: translateY(-5px); box-shadow: 0 20px 40px rgba(0,0,0,0.4); }
+        .gallery-img { width: 100%; height: 100%; object-fit: cover; border-radius: 12px; border: 1px solid rgba(255, 255, 255, 0.1); }
+        .skill-tag { background: rgba(59, 130, 246, 0.1); border: 1px solid rgba(59, 130, 246, 0.3); color: #93c5fd; font-size: 0.7rem; font-weight: 700; padding: 0.3rem 0.8rem; border-radius: 6px; }
+    </style>
+</head>
+<body class="antialiased">
+
+    <nav class="fixed w-full z-50 p-6 backdrop-blur-md border-b border-white/5">
+        <div class="max-w-7xl mx-auto flex justify-between items-center text-white">
+            <div class="text-xl font-extrabold tracking-tighter italic uppercase">ABHIJEET<span class="text-blue-500 italic">KUMAR</span></div>
+            <div class="hidden md:flex gap-8 text-xs font-bold uppercase tracking-widest italic">
+                <a href="#story" class="hover:text-blue-400 transition">Evolution</a>
+                <a href="#ai-ml" class="hover:text-blue-400 transition text-purple-400">AI Portfolio</a>
+                <a href="#projects" class="hover:text-blue-400 transition">Engineering</a>
+                <a href="#validation" class="hover:text-blue-400 transition">Endorsements</a>
+                <a href="mailto:abhijeet007abhi@gmail.com" class="text-blue-400 border border-blue-400/30 px-6 py-2 rounded-full hover:bg-blue-400 hover:text-white transition">Secure Talent</a>
+            </div>
+        </div>
+    </nav>
+
+    <section id="story" class="min-h-screen flex items-center px-6 pt-24">
+        <div class="max-w-7xl mx-auto grid lg:grid-cols-2 gap-16 items-center">
+            <div class="space-y-8">
+                <div class="inline-block px-4 py-1 rounded-full border border-purple-500/30 text-purple-400 text-xs font-bold uppercase tracking-widest italic">
+                    UT Austin AI Graduate | Monash Master of IT | Patent Holder
+                </div>
+                <h1 class="text-5xl lg:text-8xl font-extrabold leading-tight italic">
+                    Engineering <br><span class="accent-gradient italic uppercase italic">Inevitability.</span>
+                </h1>
+                <p class="text-lg text-slate-400 leading-relaxed italic">
+                    I am a Software Infrastructure Specialist and AI Architect based in Melbourne. My journey is defined by bridging the precision of patent-holding electrical engineering with the complex orchestration of cloud-native AI systems. I solve the problems that others consider too complex.
+                </p>
+                <div class="flex flex-wrap gap-4">
+                    <a href="#projects" class="bg-blue-600 px-10 py-5 rounded-xl font-bold hover:bg-blue-500 transition shadow-lg shadow-blue-600/20 italic">Strategic Projects</a>
+                    <a href="mailto:abhijeet007abhi@gmail.com" class="px-10 py-5 border border-white/10 rounded-xl font-bold hover:bg-white/5 transition italic">Direct Inquiry</a>
+                </div>
+            </div>
+            <div class="relative group">
+                <div class="absolute -inset-1 bg-gradient-to-r from-blue-500 to-purple-600 rounded-2xl blur opacity-25 group-hover:opacity-50 transition duration-1000"></div>
+                <div class="relative aspect-[4/5] rounded-2xl overflow-hidden shadow-2xl">
+                    <img src="Monashpic.jpg" alt="Abhijeet Kumar Monash University" class="w-full h-full object-cover">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="gallery" class="py-24 bg-slate-950/50 px-6">
+        <div class="max-w-7xl mx-auto">
+            <h2 class="text-3xl font-bold mb-12 flex items-center gap-4 italic uppercase">
+                <span class="h-px w-12 bg-blue-500"></span> Proof of Impact
+            </h2>
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+                <div class="space-y-4">
+                    <div class="aspect-video"><img src="graduationpic1.jpeg" alt="Graduation" class="gallery-img"></div>
+                    <p class="text-[10px] text-slate-500 uppercase tracking-widest font-bold italic">Master's Validation // Monash University</p>
+                </div>
+                <div class="space-y-4">
+                    <div class="aspect-video"><img src="Industryexperiencepic.jpeg" alt="Presentation" class="gallery-img"></div>
+                    <p class="text-[10px] text-slate-500 uppercase tracking-widest font-bold italic">Leading Stakeholder Vision // Healthy Horizons</p>
+                </div>
+                <div class="space-y-4">
+                    <div class="aspect-video"><img src="Exequantumofficevibes.jpeg" alt="Development" class="gallery-img"></div>
+                    <p class="text-[10px] text-slate-500 uppercase tracking-widest font-bold italic">Agile Engineering // ExeQuantum Melbourne</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="ai-ml" class="py-24 px-6 bg-slate-900/50">
+        <div class="max-w-7xl mx-auto">
+            <h2 class="text-4xl font-extrabold italic uppercase accent-gradient mb-16 italic">AI & ML Research | UT Austin</h2>
+            <div class="grid md:grid-cols-2 gap-8">
+                <div class="p-8 card-bg rounded-2xl border-l-4 border-purple-500">
+                    <span class="text-xs font-bold text-purple-400 uppercase italic">Computer Vision & NLP</span>
+                    <h3 class="text-xl font-bold my-4 italic uppercase">Pneumonia Diagnostic & Hazard Automation</h3>
+                    <p class="text-sm text-slate-400 mb-6 italic">Implemented Unet architectures for precise inflammation detection in medical imagery and developed an NLP IT support classifier for manufacturing safety risk highlighting.</p>
+                    <div class="flex flex-wrap gap-2">
+                        <span class="skill-tag">CNN / RNN</span>
+                        <span class="skill-tag">Object Detection</span>
+                        <span class="skill-tag">NLTK</span>
+                        <span class="skill-tag">LSTM</span>
+                    </div>
+                </div>
+                <div class="p-8 card-bg rounded-2xl">
+                    <span class="text-xs font-bold text-purple-400 uppercase italic">Ensemble Techniques</span>
+                    <h3 class="text-xl font-bold my-4 italic uppercase">Semiconductor Yield Prediction</h3>
+                    <p class="text-sm text-slate-400 mb-6 italic">Utilized Supervised Learning and Ensemble modeling to identify semiconductor yield pass/fail status, reducing production costs through dimensionality reduction and Grid Search tuning.</p>
+                    <div class="flex flex-wrap gap-2">
+                        <span class="skill-tag">Supervised Learning</span>
+                        <span class="skill-tag">PCA</span>
+                        <span class="skill-tag">Model Tuning</span>
+                    </div>
+                </div>
+                <div class="p-8 card-bg rounded-2xl">
+                    <span class="text-xs font-bold text-purple-400 uppercase italic">Unsupervised Learning</span>
+                    <h3 class="text-xl font-bold my-4 italic uppercase">Multi-Angle Silhouette Classification</h3>
+                    <p class="text-sm text-slate-400 mb-6 italic">Classified vehicle types based on silhouettes viewed from multiple angles using Support Vector Machines and Principal Component Analysis for feature reduction.</p>
+                    <div class="flex flex-wrap gap-2">
+                        <span class="skill-tag">SVM</span>
+                        <span class="skill-tag">PCA</span>
+                        <span class="skill-tag">Classification</span>
+                    </div>
+                </div>
+                <div class="p-8 card-bg rounded-2xl">
+                    <span class="text-xs font-bold text-purple-400 uppercase italic">Applied Statistics</span>
+                    <h3 class="text-xl font-bold my-4 italic uppercase">Statistical Inference & Visualization</h3>
+                    <p class="text-sm text-slate-400 mb-6 italic">Analyzed startup battlefield data and industry problems through plotting distributions and hypothesis testing to validate statistical evidence for investment decisions.</p>
+                    <div class="flex flex-wrap gap-2">
+                        <span class="skill-tag">EDA</span>
+                        <span class="skill-tag">Hypothesis Testing</span>
+                        <span class="skill-tag">Python</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="projects" class="py-24 px-6">
+        <div class="max-w-7xl mx-auto">
+            <h2 class="text-4xl font-extrabold italic uppercase accent-gradient mb-16 italic">Major Software Deployments</h2>
+            <div class="space-y-12">
+                <div class="p-10 card-bg rounded-3xl grid md:grid-cols-4 gap-8 border-l-4 border-blue-600">
+                    <div class="md:col-span-3">
+                        <span class="text-blue-500 font-bold text-xs uppercase italic tracking-widest">Sep 2025 - Present</span>
+                        <h3 class="text-3xl font-black mt-4 mb-6 uppercase italic">Project Dronacharya</h3>
+                        <p class="text-slate-400 text-lg italic">AI-Powered Learning Platform. I engineered a context-aware learning experience using Retrieval-Augmented Generation (RAG) to eliminate AI hallucinations and ensure study materials are educational, not just factual.</p>
+                        <div class="mt-6 flex flex-wrap gap-3">
+                            <span class="skill-tag">Vue.js</span>
+                            <span class="skill-tag">RAG Concepts</span>
+                            <span class="skill-tag">Prompt Engineering</span>
+                            <span class="skill-tag">LLM APIs</span>
+                        </div>
+                    </div>
+                    <div class="border-l border-white/10 pl-8 flex flex-col justify-center">
+                        <h4 class="text-white font-black italic uppercase text-xs mb-2">Impact</h4>
+                        <p class="text-xs text-slate-500 italic">Grounding AI responses in user documents for active learning.</p>
+                    </div>
+                </div>
+
+                <div class="p-10 card-bg rounded-3xl grid md:grid-cols-4 gap-8 border-l-4 border-blue-600">
+                    <div class="md:col-span-3">
+                        <span class="text-blue-500 font-bold text-xs uppercase italic tracking-widest">Mar 2025 - Jun 2025</span>
+                        <h3 class="text-3xl font-black mt-4 mb-6 uppercase italic">Healthy Horizons</h3>
+                        <p class="text-slate-400 text-lg italic">Child Wellness Platform. Architected a gamified wellness tracker with AI nutrition planning, meal search, and map-based activity discovery aligned with UN SDG 3.</p>
+                        <div class="mt-6 flex flex-wrap gap-3">
+                            <span class="skill-tag">Vue.js</span>
+                            <span class="skill-tag">Flask</span>
+                            <span class="skill-tag">Supabase</span>
+                            <span class="skill-tag">Google Maps API</span>
+                        </div>
+                    </div>
+                    <div class="border-l border-white/10 pl-8 flex flex-col justify-center">
+                        <h4 class="text-white font-black italic uppercase text-xs mb-2">Impact</h4>
+                        <p class="text-xs text-slate-500 italic">Combined gamification with AI meal planning for habit building.</p>
+                    </div>
+                </div>
+
+                <div class="p-10 card-bg rounded-3xl grid md:grid-cols-4 gap-8">
+                    <div class="md:col-span-3">
+                        <span class="text-blue-500 font-bold text-xs uppercase italic tracking-widest">Mar 2025 - Jun 2025</span>
+                        <h3 class="text-3xl font-black mt-4 mb-6 uppercase italic">ExpenseMate</h3>
+                        <p class="text-slate-400 text-lg italic">Offline-First Android App. Built using Kotlin and Jetpack Compose with Room Database for reliable persistence and a Gemini AI financial chatbot for contextual guidance.</p>
+                        <div class="mt-6 flex flex-wrap gap-3">
+                            <span class="skill-tag">Kotlin</span>
+                            <span class="skill-tag">Jetpack Compose</span>
+                            <span class="skill-tag">Room DB</span>
+                            <span class="skill-tag">Firebase</span>
+                        </div>
+                    </div>
+                    <div class="border-l border-white/10 pl-8 flex flex-col justify-center">
+                        <h4 class="text-white font-black italic uppercase text-xs mb-2">Impact</h4>
+                        <p class="text-xs text-slate-500 italic">Seamless Google Calendar integration for financial reminders.</p>
+                    </div>
+                </div>
+
+                <div class="p-10 card-bg rounded-3xl grid md:grid-cols-4 gap-8">
+                    <div class="md:col-span-3">
+                        <span class="text-blue-500 font-bold text-xs uppercase italic tracking-widest">Jul 2024 - Nov 2024</span>
+                        <h3 class="text-3xl font-black mt-4 mb-6 uppercase italic">Elder Care Connect</h3>
+                        <p class="text-slate-400 text-lg italic">Care Coordination Platform. I focused on human-centered design to simplify elder care logistics, utilizing Google Gemini for intelligent assistance and accessible UI components.</p>
+                        <div class="mt-6 flex flex-wrap gap-3">
+                            <span class="skill-tag">Vue.js</span>
+                            <span class="skill-tag">GCP</span>
+                            <span class="skill-tag">Gemini AI</span>
+                            <span class="skill-tag">Mapbox</span>
+                        </div>
+                    </div>
+                    <div class="border-l border-white/10 pl-8 flex flex-col justify-center">
+                        <h4 class="text-white font-black italic uppercase text-xs mb-2">Impact</h4>
+                        <p class="text-xs text-slate-500 italic">Reduced cognitive load for seniors through accessible design.</p>
+                    </div>
+                </div>
+
+                <div class="p-10 card-bg rounded-3xl grid md:grid-cols-4 gap-8 border-l-4 border-blue-600">
+                    <div class="md:col-span-3">
+                        <span class="text-blue-500 font-bold text-xs uppercase italic tracking-widest">Apr 2024 - Jun 2024</span>
+                        <h3 class="text-3xl font-black mt-4 mb-6 uppercase italic">PixTag (AWS)</h3>
+                        <p class="text-slate-400 text-lg italic">Serverless Image System. Engineered an event-driven workflow using AWS Lambda and Amazon Rekognition to automatically detect and tag objects at scale.</p>
+                        <div class="mt-6 flex flex-wrap gap-3">
+                            <span class="skill-tag">AWS Lambda</span>
+                            <span class="skill-tag">S3</span>
+                            <span class="skill-tag">DynamoDB</span>
+                            <span class="skill-tag">Rekognition</span>
+                        </div>
+                    </div>
+                    <div class="border-l border-white/10 pl-8 flex flex-col justify-center">
+                        <h4 class="text-white font-black italic uppercase text-xs mb-2">Impact</h4>
+                        <p class="text-xs text-slate-500 italic">Designed a decoupled architecture for zero-ops scalability.</p>
+                    </div>
+                </div>
+
+                <div class="p-10 card-bg rounded-3xl grid md:grid-cols-4 gap-8">
+                    <div class="md:col-span-3">
+                        <span class="text-blue-500 font-bold text-xs uppercase italic tracking-widest">Feb 2024 - Apr 2024</span>
+                        <h3 class="text-3xl font-black mt-4 mb-6 uppercase italic">Smart Parking Management</h3>
+                        <p class="text-slate-400 text-lg italic">Cloud Architecture Solution. I designed a serverless system for number plate recognition and automated billing using AWS Lambda and Amazon Aurora.</p>
+                        <div class="mt-6 flex flex-wrap gap-3">
+                            <span class="skill-tag">AWS Aurora</span>
+                            <span class="skill-tag">API Gateway</span>
+                            <span class="skill-tag">IAM</span>
+                            <span class="skill-tag">Rekognition</span>
+                        </div>
+                    </div>
+                    <div class="border-l border-white/10 pl-8 flex flex-col justify-center">
+                        <h4 class="text-white font-black italic uppercase text-xs mb-2">Impact</h4>
+                        <p class="text-xs text-slate-500 italic">Automated parking enforcement through serverless logic.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="validation" class="py-24 px-6 bg-slate-950">
+        <div class="max-w-7xl mx-auto">
+            <h2 class="text-4xl font-black heading mb-16 uppercase italic">Leadership Validation</h2>
+            <div class="grid md:grid-cols-3 gap-8">
+                <div class="p-8 card-bg rounded-2xl italic">
+                    <p class="text-sm text-slate-300 mb-6 italic">"Abhijeet consistently approached challenges with a solution-oriented perspective... His ability to analyse complex problems and devise innovative strategies proved invaluable."</p>
+                    <div class="font-bold text-white text-xs uppercase">Samuel Tseitkin — CEO of ExeQuantum</div>
+                </div>
+                <div class="p-8 card-bg rounded-2xl italic">
+                    <p class="text-sm text-slate-300 mb-6 italic">"His expertise in product validation and implementation of quality systems contributed significantly to improving product performance. A valuable asset."</p>
+                    <div class="font-bold text-white text-xs uppercase">Garima Mahey — Asst Manager, Schneider Electric</div>
+                </div>
+                <div class="p-8 card-bg rounded-2xl italic">
+                    <p class="text-sm text-slate-300 mb-6 italic">"Abhijeet is a big talent. I’m pleased with his thinking and professionalism... his advanced data knowledge helped us generate additional insights."</p>
+                    <div class="font-bold text-white text-xs uppercase">Kuldeep Jangid — Product Designer, Commbank</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="py-24 px-6 max-w-7xl mx-auto">
+        <div class="grid lg:grid-cols-2 gap-12">
+            <div>
+                <h3 class="text-2xl font-bold mb-8 italic uppercase">Intellectual Assets</h3>
+                <div class="grid grid-cols-2 gap-4">
+                    <div class="card-bg p-6 rounded-xl text-center">
+                        <h4 class="text-blue-500 font-black italic uppercase text-[10px]">Patent Holder</h4>
+                        <p class="text-white font-bold italic">Anti Clogging System</p>
+                    </div>
+                    <div class="card-bg p-6 rounded-xl text-center">
+                        <h4 class="text-blue-500 font-black italic uppercase text-[10px]">Published</h4>
+                        <p class="text-white font-bold italic">CMOS Op-Amp Design</p>
+                    </div>
+                </div>
+            </div>
+            <div>
+                <h3 class="text-2xl font-bold mb-8 italic uppercase">Proven Experience</h3>
+                <div class="card-bg p-6 rounded-xl border-l-4 border-blue-500 italic">
+                    <h4 class="text-blue-500 font-black italic uppercase text-[10px]">Schneider Electric</h4>
+                    <p class="text-slate-400 italic">Launched 25+ energy products; reduced national failure rates through field testing and data mining.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer id="contact" class="py-40 bg-black px-6 text-center border-t border-white/5">
+        <h2 class="text-7xl font-black heading accent-gradient mb-8 uppercase italic tracking-tighter">Inevitable Partnerships.</h2>
+        <p class="text-slate-500 text-xl font-light mb-16 uppercase tracking-widest italic">Melbourne Based. AI & Cloud Specialist. Patent Holder.</p>
+        <a href="mailto:abhijeet007abhi@gmail.com" class="bg-blue-600 px-12 py-5 rounded-full font-bold uppercase tracking-widest hover:bg-white hover:text-black transition shadow-2xl italic">Initiate Discussion</a>
+    </footer>
+
+</body>
+</html>
